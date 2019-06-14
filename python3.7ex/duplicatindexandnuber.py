@@ -6,7 +6,7 @@ while(i<len):
     while(j<len):
         if l[i]==l[j]:
             print("duplicate num in list",l[j])
-            print("duplicate index of a number",j)
+            print("duplicate index  a number",j)
             del l[j]
             len=len-1
         j=j+1
